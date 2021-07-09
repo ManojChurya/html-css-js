@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <title>Garbage collector</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Survivors of Garbage</h1>
+      <button class="btn" id="start-btn">Start it</button>
+    </div>
+
+    <div class="screen">
+      <h1>Which "garbage" you want to collect first?</h1>
+      <ul class="garbage-list">
+        <li>
+          <button class="choose-garbage-btn">
+            <p>Glass</p>
+            <img src="Glass.png" alt="glass"/>
+          </button>
+        </li>
+        <li>
+          <button class="choose-garbage-btn">
+            <p>Organic</p>
+            <img
+               src="organic.png" alt="organic"/>
+          </button>
+        </li>
+        <li>
+          <button class="choose-garbage-btn">
+            <p>Paper</p>
+            <img
+               src="paper.png" alt="paper"/>
+          </button>
+        </li>
+        <li>
+          <button class="choose-garbage-btn">
+            <p>Plastic</p>
+            <img
+               src="plastic.png" alt="plastic"/>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h3 id="type" class="type"><a href="type of waste.html">Type of waste</a></h3>
+      <h3 id="home" class="home"><a href="html.html">Home</a></h3>
+      <h3 id="stats" class="stats"><a href="stats.html">Statistics</a></h3>
+      <h5 id="message" class="message">
+        You can do more <br>
+        Don't give up!!
+      </h5>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
